@@ -68,4 +68,6 @@ class UserController extends Controller
         ->where('id','=', $user->id)
         ->get();
     }
+
+    
 }
